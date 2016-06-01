@@ -1,11 +1,14 @@
 def test():
-	print("Arena!")
+    print("Arena!")
 
 class Arena:
-	'A field for playing pong'
+    'A field for playing pong'
 
-	def __init__(self, width, height, background, gui):
-		self.width = width
-		self.height = height
-		self.background = background
-		self.gui = gui
+    def __init__(self, width, height, background, gui):
+        self.width = width
+        self.height = height
+        self.background = background
+        self.gui = gui
+
+    def render():
+        #TODO: draw a thing
