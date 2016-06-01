@@ -1,10 +1,6 @@
-import Core.Paddle
-
 class Player:
 	'A human pong player'
 
-	def __init__(name, color):
-		this.paddle = Core.Paddle.Paddle()
-
+	def __init__(self, name, paddle):
+		this.paddle = paddle
 		this.name = name
-		this.color = color
