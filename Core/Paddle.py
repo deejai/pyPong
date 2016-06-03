@@ -19,5 +19,5 @@ class Paddle:
     def setSpeed(speed):
         this.speed = speed
 
-    def render():
-        # TODO: paint a thing
+    def render(display):
+        # TODO: draw a thing
