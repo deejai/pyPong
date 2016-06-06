@@ -1,4 +1,8 @@
 import GUI.Arena
 
-def loopy():
-	GUI.Arena.test()
+from PyQt4 import QtGui
+
+class GameLoop:
+	
+	def __init__():
+		pass

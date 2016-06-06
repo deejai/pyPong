@@ -11,4 +11,5 @@ class Arena:
         self.gui = gui
 
     def render():
+        pass
         #TODO: draw a thing

@@ -8,4 +8,5 @@ class MainMenu:
                       "High Scores"]
 
     def render():
+        pass
         ##TODO: draw a thing
