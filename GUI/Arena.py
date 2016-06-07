@@ -1,10 +1,11 @@
-def test():
-    print("Arena!")
+from PyQt4 import QtGui
 
-class Arena:
+class Arena(QtGui.QGraphicsView):
     'A field for playing pong'
 
-    def __init__(self, width, height, background, gui):
+    black = QtGui.QColor.black()
+
+    def __init__(self, width, height, bg_color=black, bg_image=0, fg_image=0):
         self.width = width
         self.height = height
         self.background = background
