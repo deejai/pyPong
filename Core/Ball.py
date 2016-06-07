@@ -15,6 +15,3 @@ class Ball(QtGui.QGraphicsEllipseItem):
 
 	def setVelocity(xvel, yvel):
 		self.vel = [xvel, yvel]
-
-	def render():
-		#TODO draw a thing

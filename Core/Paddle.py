@@ -14,5 +14,5 @@ class Paddle(QtGui.QGraphicsRectItem):
     def setSpeed(speed):
         this.speed = speed
 
-    def render(display):
-        # TODO: draw a thing
+    def setController(controller):
+        self.controller = controller
