@@ -1,20 +1,15 @@
-class Paddle:
+from PyQt4 import QtGui
+
+class Paddle(QtGui.QGraphicsRectItem):
     'A pong paddle'
 
     def __init__(self, length, color):
-        # Place the paddle and set the speed
-        this.xposition = xstart
-        this.yposition = ystart
+        super(Paddle, self).__init__()
+
         this.speed = 1
-
-        # Give the paddle its shape and color
         this.length = length
-        this.thickness = length/6
+        this.width = length/6
         this.color = color
-
-    def jumpTo(xposition, yposition):
-        this.xposition = xposition
-        this.yposition = yposition
 
     def setSpeed(speed):
         this.speed = speed
