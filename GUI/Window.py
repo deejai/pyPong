@@ -13,13 +13,7 @@ class Window(QtGui.QMainWindow):
         # self.scene = GUI.MainMenu()
         goToMainMenu()
 
-    def startLevel(arena):
-        self.show()
-
-    def goToMainMenu():
-        self.show()
-
-    def goToHighScores():
+    def setView(qview):
         self.show()
     
 if __name__ == "__main__":
