@@ -11,6 +11,15 @@ class Window(QtGui.QMainWindow):
         # TODO: self.setWindowIcon(ICON_FILE_PATH)
         
         # self.scene = GUI.MainMenu()
+        goToMainMenu()
+
+    def startLevel(arena):
+        self.show()
+
+    def goToMainMenu():
+        self.show()
+
+    def goToHighScores():
         self.show()
     
 if __name__ == "__main__":
