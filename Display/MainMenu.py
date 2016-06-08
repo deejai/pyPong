@@ -14,3 +14,6 @@ class MainMenu(QtGui.QGraphicsView):
         # TODO: if text is duplicate, replace qview of that
         #       item instead of creating a new item
         menuItems.append(text, qview)
+        
+if __name__ == "__main__":
+    main()

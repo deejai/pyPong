@@ -13,3 +13,6 @@ class Paddle(QtGui.QGraphicsRectItem):
 
     def setSpeed(speed):
         this.speed = speed
+        
+if __name__ == "__main__":
+    main()

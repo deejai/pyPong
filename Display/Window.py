@@ -10,10 +10,11 @@ class Window(QtGui.QMainWindow):
         self.setWindowTitle("Davepong")
         # TODO: self.setWindowIcon(ICON_FILE_PATH)
         
-        # self.scene = GUI.MainMenu()
-        goToMainMenu()
+        # self.scene = Display.MainMenu()
+        mainMenu = MainMenu()
+        setView(mainMenu)
 
-    def setView(qview):
+    def setView(self, qview):
         self.show()
     
 if __name__ == "__main__":

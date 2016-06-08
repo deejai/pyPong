@@ -2,14 +2,14 @@ import sys
 
 from PyQt4 import QtGui
 
-import Core.GameLoop
-import GUI.Window
+from Core.GameLoop import GameLoop
+from Display.Window import Window
 
 # Initialize things, run the game loop, clean up on exit
 
 def main():
 	app = QtGui.QApplication(sys.argv)
-	mainWindow = GUI.Window.Window()
+	mainWindow = Window()
 	sys.exit(app.exec_())
 
 if __name__ == "__main__":

@@ -13,3 +13,6 @@ class Human(Player):
             return -1 if !upPressed else 0
         else:
             return 0
+            
+if __name__ == "__main__":
+    main()

@@ -11,3 +11,6 @@ class AI(Player):
         return 1 #up
         # return -1 #down
         # return 0 #stay
+        
+if __name__ == "__main__":
+    main()
