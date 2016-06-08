@@ -1,4 +1,4 @@
-from GUI.Arena import Arena
+from Display.Arena import Arena
 from PyQt4 import QtGui
 
 class MainMenu(QtGui.QGraphicsView):

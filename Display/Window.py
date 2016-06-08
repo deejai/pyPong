@@ -1,4 +1,4 @@
-import GUI.MainMenu
+from Display.MainMenu import MainMenu
 
 from PyQt4 import QtGui
 
