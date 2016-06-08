@@ -5,15 +5,14 @@ class Arena(QtGui.QGraphicsView):
 
     black = QtGui.QColor(0,0,0)
 
-    def __init__(self, width, height, bg_color=black):
+    def __init__(self, width=480, height=360, bg_color=black):
         self.width = width
         self.height = height
-        self.background = background
-        self.gui = gui
+        self.bg_color = bg_color
 
-    def setPaddles(paddle1, paddle2):
-        self.paddle1 = paddle1
-        self.paddle2 = paddle2
+    def setPlayers(self, player1, player2):
+        self.player1 = player1
+        self.player2 = player2
 
 if __name__ == "__main__":
     main()
