@@ -1,5 +1,6 @@
-from Display.Arena import Arena
 from PyQt4 import QtGui
+
+from Display import Arena
 
 class MainMenu(QtGui.QGraphicsView):
     'The place to customize or start a pong game'
