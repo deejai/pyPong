@@ -1,4 +1,4 @@
-import GUI.Arena
+import Display.Arena
 
 from PyQt4 import QtGui
 
