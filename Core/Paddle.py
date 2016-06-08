@@ -6,13 +6,13 @@ class Paddle(QtGui.QGraphicsRectItem):
     def __init__(self, length, color, speed):
         super(Paddle, self).__init__()
 
-        this.speed = speed
-        this.length = length
-        this.width = length/6
-        this.color = color
+        self.speed = speed
+        self.length = length
+        self.width = length/6
+        self.color = color
 
     def setSpeed(speed):
-        this.speed = speed
+        self.speed = speed
         
 if __name__ == "__main__":
     main()
