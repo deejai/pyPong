@@ -2,14 +2,9 @@ import sys
 
 from PyQt4 import QtGui
 
-from Core.GameLoop    import GameLoop
-from Core.Paddle      import Paddle
-from Display.Arena    import Arena
-from Display.Window   import Window
-from Display.MainMenu import MainMenu
-from Control.Player   import Player
-from Control.AI       import AI
-from Control.Human    import Human
+from Core    import *
+from Display import *
+from Control import *
 
 # Initialize things, run the game loop, clean up on exit
 
