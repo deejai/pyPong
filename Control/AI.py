@@ -1,4 +1,4 @@
-from Control.Player import Player
+from Control import Player
 
 class AI(Player):
     'A virtual pong player'

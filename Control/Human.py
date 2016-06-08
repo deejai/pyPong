@@ -1,10 +1,10 @@
-from Control.Player import Player
+from Control import Player
 
 class Human(Player):
     'A human pong player'
 
     def __init__(self, name, paddle, color):
-        super(Human, self).__init__()
+        super(Human, self).__init__(name, paddle, color)
 
     def getMove(self, upPressed, downPressed):
         if( upPressed ):
