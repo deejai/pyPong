@@ -1,5 +1,3 @@
-import Display.Arena
-
 from PyQt4 import QtGui
 
 class GameLoop:
