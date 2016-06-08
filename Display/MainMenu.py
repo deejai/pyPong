@@ -7,13 +7,8 @@ class MainMenu(QtGui.QGraphicsView):
     menuItems = []
 
     def __init__(self):
-        singlePlayerArenas[1] = Arena()
-        createItem("Single Player", )
-
-    def createItem(text, qview):
-        # TODO: if text is duplicate, replace qview of that
-        #       item instead of creating a new item
-        menuItems.append(text, qview)
+        spArenas = []
+        spArenas.append(Arena())
         
 if __name__ == "__main__":
     main()

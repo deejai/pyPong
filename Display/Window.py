@@ -11,8 +11,6 @@ class Window(QtGui.QMainWindow):
         # TODO: self.setWindowIcon(ICON_FILE_PATH)
         
         # self.scene = Display.MainMenu()
-        mainMenu = MainMenu()
-        setView(mainMenu)
 
     def setView(self, qview):
         self.show()
