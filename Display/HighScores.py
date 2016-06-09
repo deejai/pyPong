@@ -5,6 +5,3 @@ class HighScores(QtGui.QGraphicsView):
     
     def __init__(self, filePath, isRelative):
         pass
-        
-if __name__ == "__main__":
-    main()

@@ -1,4 +1,4 @@
-from Control import Player
+from Control.Player import Player
 
 class AI(Player):
     'A virtual pong player'
@@ -11,6 +11,3 @@ class AI(Player):
         return 1 #up
         # return -1 #down
         # return 0 #stay
-        
-if __name__ == "__main__":
-    main()

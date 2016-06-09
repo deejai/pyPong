@@ -1,4 +1,4 @@
-from Control import Player
+from Control.Player import Player
 
 class Human(Player):
     'A human pong player'
@@ -13,6 +13,3 @@ class Human(Player):
             return -1 if not upPressed else 0
         else:
             return 0
-            
-if __name__ == "__main__":
-    main()

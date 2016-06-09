@@ -14,6 +14,3 @@ class Player:
         
     def getMove(self, args):
         raise NotImplementedError("getMove not implemented")
-        
-if __name__ == "__main__":
-    main()

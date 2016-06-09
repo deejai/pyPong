@@ -10,6 +10,3 @@ class MainMenu(QtGui.QGraphicsView):
     def __init__(self):
         spArenas = []
         spArenas.append(Arena())
-        
-if __name__ == "__main__":
-    main()
