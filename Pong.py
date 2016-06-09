@@ -22,7 +22,7 @@ def main():
     player1 = Human("Charlie", paddle1, white)
     player2 = AI("Doug", paddle2, white)
         
-    testArena = Arena()
+    testArena = Arena(window)
     testArena.setPlayers(player1, player2)
     window.setView(testArena)
     
