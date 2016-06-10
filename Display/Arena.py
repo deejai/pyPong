@@ -6,7 +6,7 @@ class Arena():
     black = QtGui.QColor(0,0,0)
 
     def __init__(self, view, bg_color=black):
-        
+        pass
 
     def setPlayers(self, player1, player2):
         self.player1 = player1
